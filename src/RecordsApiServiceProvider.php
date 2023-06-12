@@ -23,10 +23,6 @@ class RecordsApiServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->bind('recordsapi', function()
-        {
-            return new AllServices();
-
-        });
+        $this->app->bind('recordsapi', fn() => new AllServices());
     }
 }

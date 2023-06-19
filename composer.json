@@ -1,5 +1,5 @@
 {
-    "name": "familytree365/recordsapi",
+    "name": "laravel-liberu/recordsapi",
     "description": "This helps to consume the records api into your application",
     "type": "library",
     "license": "MIT",

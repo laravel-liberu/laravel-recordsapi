@@ -163,7 +163,6 @@ class AllServices {
         switch($data['catalogue']){
             case "BIRTH":
                 return $this->getBirth($data);
-
             case "DEATH":
                 return $this->getDeath($data);
             case "MARRIAGE":
